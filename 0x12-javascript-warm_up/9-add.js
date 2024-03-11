@@ -10,7 +10,7 @@ const arg2 = parseInt(process.argv[3], 10);
 
 // Use console.log(...) to print the output
 if (isNaN(arg1) || isNaN(arg2)) {
-  console.log("NaN");
+  console.log('NaN');
 } else {
   console.log(add(arg1, arg2));
 }

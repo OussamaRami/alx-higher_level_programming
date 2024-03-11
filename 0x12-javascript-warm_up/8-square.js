@@ -7,7 +7,7 @@ const size = parseInt(arg, 10);
 
 // Use console.log(...) to print the output
 if (isNaN(size) || size <= 0) {
-  console.log("Missing size");
+  console.log('Missing size');
 } else {
   for (let i = 0; i < size; i++) {
     console.log('X'.repeat(size));
